@@ -24,7 +24,7 @@ It generates a multiplier which is added to the property price.
 * The application also has several validations to make sure there are no unexpected inputs by the user.
 
 * The application is also performance tested with more than 10,000 users, 10,000 hosts and 100,000 billing records. It has also been load tested using JMeter 
-upto 1000 requests by 1000 concurrent users. It also has unit testing written in Mocha.js . 
+upto 500 requests by 1000 concurrent users. It also has unit testing written in Mocha.js . 
 
 # Technologies
 
