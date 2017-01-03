@@ -1,0 +1,176 @@
+
+added a CSS snippet: shared_itinerary.css
+.shared-itinerary-container {
+    position: relative;
+    min-height: 700px
+}
+
+.shared-itinerary-container .loading-placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+
+.accept-trip-booker-profile-pic {
+    height: 180px;
+    width: 180px;
+    margin-top: 12.5px
+}
+
+.accept-trip-modal-headline {
+    font-size: 1.2em
+}
+
+.blur {
+    -webkit-filter: blur(10px);
+    filter: blur(10px)
+}
+
+.business-trip-notes {
+    white-space: pre-wrap
+}
+
+.business-travel-tracking-section {
+    padding-top: 9px
+}
+
+.business-travel-checkbox-text {
+    float: left;
+    padding-bottom: 8px;
+    padding-right: 12.5px
+}
+
+@media (min-width: 768px) {
+    .business-travel-checkbox-text {
+        width: 66.66667%
+    }
+}
+
+.hide-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+@media (min-width: 768px) {
+    .host-photo {
+        float: right
+    }
+}
+
+.itinerary-card .billing-table-cell {
+    width: 170px
+}
+
+.itinerary-card .business-trip-checkbox-panel-body {
+    margin: -15px 0
+}
+
+.itinerary-card .checkin-checkout {
+    position: relative
+}
+
+.itinerary-card .panel-hr {
+    margin: 0 40px;
+    border-color: #dce0e0
+}
+
+.itinerary-card .mini-divider {
+    width: 0;
+    border-left: 1px solid #dce0e0;
+    height: 1em;
+    margin: 0 15px
+}
+
+.itinerary-card .panel, .itinerary-card .panel-body {
+    border: none
+}
+
+.itinerary-card .panel-body {
+    padding: 30px 40px
+}
+
+.itinerary-card .panel-body + .panel-body::before {
+    content: "";
+    position: absolute;
+    top: -1px;
+    height: 1px;
+    left: 40px;
+    right: 40px;
+    border-top: 1px solid #dce0e0
+}
+
+.itinerary-card .manage-guests {
+    padding: 30px 40px 20px
+}
+
+@media (min-width: 768px) and (max-width: 1099px) {
+    .listing-large-photo {
+        margin-bottom: 25px;
+        max-height: 480px
+    }
+}
+
+.listing-info-section {
+    border-top: 1px solid #c4c4c4;
+    padding: 40px 0 25px
+}
+
+.listing-info-section:first-child {
+    border-top: none
+}
+
+.listing-photo-main-sm {
+    margin: 0 -12.5px
+}
+
+@media (max-width: 767px) {
+    .manage-guests-button {
+        width: 100%
+    }
+}
+
+.manage-guests-modal-subheader {
+    font-size: 14px
+}
+
+@media (max-width: 767px) {
+    .reservation-guest-container {
+        width: calc(100% + 1px)
+    }
+}
+
+@media (max-width: 767px) {
+    .reservation-guest {
+        float: left;
+        margin-right: calc((100% - 4 * 54px) / 3)
+    }
+
+    .reservation-guest:nth-child(4n) {
+        margin-right: 0
+    }
+}
+
+.reservation-guest-row {
+    height: 65px
+}
+
+@media (min-width: 768px) {
+    .reservation-guest-row .reservation-guest-profile-pic {
+        top: -4px
+    }
+}
+
+.reservation-guest-row .reservation-guest-row-body {
+    height: 65px;
+    line-height: 65px;
+    vertical-align: middle
+}
+
+@media (max-width: 767px) {
+    .text-center-on-sm {
+        text-align: center
+    }
+}
